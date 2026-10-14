@@ -4,6 +4,8 @@ A small background clicker for Foxhole on Linux. Pick a point, set a rate, and
 keep using your mouse elsewhere. Supports left click and Shift + left click.
 It exits when the game closes.
 
+### Flatpak/sandboxed Steam setups are NOT supported!
+
 ## Setup
 
 You'll need **x86-64 Linux**, Python 3.10+, Steam with Foxhole running through
@@ -52,8 +54,9 @@ available. Desktop hotkeys require the controller to be open.
 ## Notes
 
 Tested in game on CachyOS/KDE with Proton; other distros haven't been tested in
-game. Flatpak/sandboxed Steam setups may need extra filesystem access and are not
-covered by this launcher. Pure Wayland without Xwayland isn't supported.
+game. 
+
+Pure Wayland without Xwayland isn't supported.
 
 Settings and logs live in `~/.local/share/foxhole-clicker/`. If startup fails,
 check `controller.log` and `launch.log`. Reselect after changing the game's layout
